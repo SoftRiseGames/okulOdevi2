@@ -6,12 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/logoLayer.unity
+    guid: 57e4b740c666a834697100ba142aa8fe
+  - enabled: 1
+    path: Assets/Scenes/beforemenu.unity
+    guid: e3db91e450a183e468fcafcedd7b993e
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: fbb61491294791b4983d3674c708194d
+  - enabled: 1
+    path: Assets/Scenes/beginning.unity
+    guid: a3803e9fbb58ac64eb6dc348a9d35262
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/magara.unity
+    path: Assets/Scenes/magara.unity
     guid: d7037a628419b1346804787d1f35be72
   - enabled: 1
-    path: Assets/New Scene 1.unity
+    path: Assets/Scenes/New Scene 1.unity
     guid: f14d5d4e55b03c74e85e34004e2cf71d
+  - enabled: 1
+    path: Assets/Scenes/ending.unity
+    guid: c0e0ed64a9338594b87cb6bbaac1b53a
   m_configObjects: {}

@@ -1937,7 +1937,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Yeterince Lay\u0131k De\u011Filsin"
+  m_text: "Lay\u0131k De\u011Filsin"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11520,7 +11520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11550,7 +11550,7 @@ MonoBehaviour:
   m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -16577,7 +16577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextBackgroundImage: {fileID: 0}
-  textler: abc
+  textler: "Orman fazlas\u0131yla sessiz ama bu idealimizden sapmam\u0131za izin
+    vermeyecek. O da\u011F\u0131n gizemini \xF6\u011Frenece\u011Fiz."
   textFont: {fileID: 944645232}
   isOpen: 0
   wallight: {fileID: 2035108052}
@@ -16594,7 +16595,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextBackgroundImage: {fileID: 0}
-  textler: abc
+  textler: "Orman\u0131n b\xFCy\xFCl\xFC\u011F\xFC oldu\u011Funu d\xFC\u015F\xFCnmeye
+    ba\u015Flad\u0131k. Buraya kadar hi\xE7bir hayvanla kar\u015F\u0131la\u015Fmad\u0131k.
+    Gizem daha da derinle\u015Fiyor ama yoldan d\xF6nmek bizi onursuz k\u0131lacak."
   textFont: {fileID: 944645232}
   isOpen: 0
   wallight: {fileID: 213808640}
