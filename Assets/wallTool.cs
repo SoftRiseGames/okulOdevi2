@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 public class wallTool : MonoBehaviour
 {
     public GameObject[] walllist;
     int b = 0;
+    
     bool temas;
+    [SerializeField] TextMeshProUGUI replayText;
     void Start()
     {
         
@@ -23,7 +26,7 @@ public class wallTool : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                StartCoroutine(waitAndDeath());
             }
         }
        
@@ -40,13 +43,17 @@ public class wallTool : MonoBehaviour
                 {
                     b = b + 1;
                 }
-                else
-                {
-                    Debug.Log("sg");
-                }
+                
                 Debug.Log(b);
             }
 
         }
+    }
+    IEnumerator waitAndDeath()
+    {
+        replayText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
     }
 }

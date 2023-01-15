@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/magara.unity
+    guid: d7037a628419b1346804787d1f35be72
+  - enabled: 1
+    path: Assets/New Scene 1.unity
+    guid: f14d5d4e55b03c74e85e34004e2cf71d
   m_configObjects: {}
